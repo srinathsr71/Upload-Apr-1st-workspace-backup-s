@@ -1,0 +1,14 @@
+
+f
+java:S1135	"2Complete the task associated to this TODO comment.b 36364ec9aa2f0995d283c1c6a92d2e5ch
+Ä	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.b d31d01626f8e6bc8121479f38de51fc8h
+^	java:S106,"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+o	java:S125
+"<This block of commented-out lines of code should be removed.b e2e00a0612ae0bd9d7b1f48ce63f4fa5h
+o	java:S125"<This block of commented-out lines of code should be removed.b 67082f753164a12da4c81e17b0c8152dh
+o	java:S125"<This block of commented-out lines of code should be removed.b b524e41aa0cf6ad39267f32c8c687778h
+ç
+java:S2293("YReplace the type specification in this constructor call with the diamond operator ("<>").b e204bcb7a1d997ac32cf2ef8abdad98fh
+^	java:S106&"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+ç
+java:S3012$"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.b 9e271372f90270e5b0f7dd6515c9575dh

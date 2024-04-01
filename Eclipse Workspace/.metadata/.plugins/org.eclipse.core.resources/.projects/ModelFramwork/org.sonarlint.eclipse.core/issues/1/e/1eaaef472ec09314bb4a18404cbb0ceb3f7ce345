@@ -1,0 +1,17 @@
+
+|
+java:S1192"HDefine a constant instead of duplicating this literal "browser" 3 times.b 57dcf22e4827427c999b4216c7fee435h
+†
+java:S1104"RMake driver a static final constant or non-public and provide accessors if needed.b e2d45d57c7e2941b65c6ccd64af4223eh
+‚
+java:S1104"NMake hg a static final constant or non-public and provide accessors if needed.b 40fe9ad4949331a12f5f19b477133924h
+`
+java:S1444",Make this "public static driver" field finalb e2d45d57c7e2941b65c6ccd64af4223eh
+€	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.b d0e45878043844ffc41aac437e86b602h
+j
+java:S2696"6Make the enclosing method "static" or remove this set.b e2d45d57c7e2941b65c6ccd64af4223eh
+j
+java:S2696"6Make the enclosing method "static" or remove this set.b e2d45d57c7e2941b65c6ccd64af4223eh
+j
+java:S2696"6Make the enclosing method "static" or remove this set.b e2d45d57c7e2941b65c6ccd64af4223eh
+^	java:S106 "+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh

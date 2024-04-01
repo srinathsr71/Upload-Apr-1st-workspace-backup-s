@@ -1,0 +1,10 @@
+
+ç	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b 92345a72a069e33bba8040f74ce79c2ah
+Ä
+java:S1223"LRename this method to prevent any misunderstanding or make it a constructor.b 21213db73195f5ed4e80bca75e591570h
+à	java:S116"URename this field "Adminclick" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 107fece9c2d269af76b840306d5cc92bh
+á	java:S116"TRename this field "Adminuser" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b cfd2154c83d640d1311c71f831d1348eh
+ä	java:S116"WRename this field "Employeename" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b fbb902be01502da1fb314ac227b09d53h
+ã	java:S116"XRename this field "Secondropdwon" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b a2d4c042b7e1ea362701fcc990757901h
+Ñ	java:S116"QRename this field "Search" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 13348442cc6a27032d2b4aa28b75a5d3h
+Å	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 21213db73195f5ed4e80bca75e591570h

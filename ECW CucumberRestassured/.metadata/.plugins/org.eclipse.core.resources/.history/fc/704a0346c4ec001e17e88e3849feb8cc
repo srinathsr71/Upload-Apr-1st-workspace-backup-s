@@ -1,0 +1,41 @@
+package stepdefinit;
+
+
+
+public class stepdefinitions4 {
+	import static io.restassured.RestAssured.given;
+
+	import org.json.simple.JSONObject;
+
+	import io.cucumber.java.en.And;
+	import io.cucumber.java.en.Given;
+	import io.cucumber.java.en.Then;
+	import io.restassured.RestAssured;
+	import io.restassured.path.json.JsonPath;
+	import io.restassured.response.Response;
+	import io.restassured.response.ResponseBody;
+	import io.restassured.specification.RequestSpecification;
+	
+	
+	
+
+	@Given("I hit the url of post product api endpoint")
+	public void i_hit_the_url_of_post_product_api_endpoint() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@Given("I pass the request body of product title {string}")
+	public void i_pass_the_request_body_of_product_title(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@Then("I receive the response code as {int}")
+	public void i_receive_the_response_code_as(Integer int1) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+
+
+	
+}

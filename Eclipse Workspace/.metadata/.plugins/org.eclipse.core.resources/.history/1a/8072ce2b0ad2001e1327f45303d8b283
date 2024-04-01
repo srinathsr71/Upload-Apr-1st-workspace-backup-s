@@ -1,0 +1,30 @@
+package com.pr;
+
+import java.util.Scanner;
+
+public class progra {
+    public static void main(String[] args) {
+    	Scanner sh=new Scanner(System.in);
+    	System.out.println("Enter number");
+    try {
+    	float c,d;
+    	String a=sh.next();
+    	 c=Float.parseFloat(a);
+    	 String b=sh.next();
+    	 d=Float.parseFloat(b);
+    	System.out.println("the numbers entered are float numbers and perform multiplication");
+    	int result=c*d;
+    	System.out.println("the multiplication of two numbers are:"+result);
+    }catch(Exception e) {
+    	System.out.println("the numbers entered are not float numbers");
+    }
+    
+    
+    
+    
+    
+    }
+}
+
+
+

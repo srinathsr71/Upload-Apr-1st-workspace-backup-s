@@ -1,0 +1,13 @@
+package com.cra.testrunner;
+
+public class testrunner {
+	
+	
+	@RunWith(Cucumber.class)
+	@CucumberOptions(
+	        features = "src/test/resources/functionalTests",
+	)
+	public class TestRunner {
+	}
+
+}

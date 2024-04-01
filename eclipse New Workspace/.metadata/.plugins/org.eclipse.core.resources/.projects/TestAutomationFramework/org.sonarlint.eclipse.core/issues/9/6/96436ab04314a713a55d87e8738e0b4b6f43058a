@@ -1,0 +1,9 @@
+
+w	java:S107C"=Method has 10 parameters, which is greater than 7 authorized.8ýÞš™Ù1b 0f98b7f230f3c91292f0de4c99e263f2h
+‰
+java:S1104"NMake dw a static final constant or non-public and provide accessors if needed.8ËÑŸ›Ù1b 1f2121f36f817bd18540e5fa7de06f59h
+ˆ	java:S100C"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8ýÞš™Ù1b 0f98b7f230f3c91292f0de4c99e263f2h
+u
+java:S1128":Remove this unused import 'org.openqa.selenium.WebDriver'.8èùº½Ù1b 47749bda47997e552fbd58e14f97c351h
+c
+java:S1444"(Make this "public static dw" field final8ËÑŸ›Ù1b 1f2121f36f817bd18540e5fa7de06f59h

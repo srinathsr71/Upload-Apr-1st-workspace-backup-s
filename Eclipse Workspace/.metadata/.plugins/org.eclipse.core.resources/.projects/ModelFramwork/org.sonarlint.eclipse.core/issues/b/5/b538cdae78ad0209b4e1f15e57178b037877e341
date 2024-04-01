@@ -1,0 +1,35 @@
+
+ò
+java:S1488ü"cImmediately return this expression instead of assigning it to the temporary variable "currentdate".b 4a1d8d8c3f8eeee743633a75acdbdb11h
+Ä	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.b ebb67a4271abe715344471b0f16321f6h
+ñ
+java:S4165I"bRemove this useless assignment; "flag" already holds the assigned value along all execution paths.b 04b8d6dc602542c7d84e76f57842a90eh
+ñ
+java:S4165_"bRemove this useless assignment; "flag" already holds the assigned value along all execution paths.b 04b8d6dc602542c7d84e76f57842a90eh
+y
+java:S2583Ö"DChange this condition so that it does not always evaluate to "false"b 327a6c4304ad5938eaf0efb6cc3e53dch
+y
+java:S2583é"DChange this condition so that it does not always evaluate to "false"b 327a6c4304ad5938eaf0efb6cc3e53dch
+l
+java:S18547"8Remove this useless assignment to local variable "flag".b 950db5675a38461b61972754e3522fc5h
+^	java:S1066"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106:"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^
+java:S1197C"*Move the array designators [] to the type.b eb065f68cf1cb044038df3826d6e7b8dh
+^	java:S106O"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106Q"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^
+java:S1197Y"*Move the array designators [] to the type.b eb065f68cf1cb044038df3826d6e7b8dh
+^	java:S106e"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106g"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106q"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106t"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+_	java:S106Ü"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+_	java:S106è"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+q
+java:S1854ï"<Remove this useless assignment to local variable "datetime".b ff84b146b07688bc6cfe3778f5300afbh
+b
+java:S1481ï"-Remove this unused "datetime" local variable.b dfeaaeb4316477bd556ea5e8c3295887h
+v
+java:S1075ô"ARefactor your code to get this URI from a customizable parameter.b a64debf45f1321cfafbd8ad14adf41ebh
+_	java:S106ö"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh

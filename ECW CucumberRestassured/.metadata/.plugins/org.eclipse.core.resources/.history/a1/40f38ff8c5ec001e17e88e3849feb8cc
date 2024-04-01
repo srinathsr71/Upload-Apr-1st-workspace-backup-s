@@ -1,0 +1,37 @@
+package stepdefinit;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+
+public class stepdefinitions4 {
+	
+	
+
+	@Given("I hit the url of post product api endpoint")
+	public void i_hit_the_url_of_post_product_api_endpoint() {
+		System.out.println("hi");
+	    
+	}
+	@Given("I pass the request body of product title {string}")
+	public void i_pass_the_request_body_of_product_title(String string) {
+		System.out.println("hello");
+	}
+	@Then("I receive the response code as {int}")
+	public void i_receive_the_response_code_as(Integer int1) {
+		System.out.println("how are");
+	}
+
+	io.cucumber.junit.UndefinedStepException: The step 'I receive the response body with id as "21"' is undefined.
+	You can implement this step using the snippet(s) below:
+
+	@Then("I receive the response body with id as {string}")
+	public void i_receive_the_response_body_with_id_as(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+
+
+
+	
+}

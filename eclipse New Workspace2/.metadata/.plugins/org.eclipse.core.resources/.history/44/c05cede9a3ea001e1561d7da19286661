@@ -1,0 +1,12 @@
+package com.interviewprograms;
+
+public class Occurencesstring {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String ku="Welcome to the software testing world";
+		String word="testing";
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+package stepdefinit;
+
+
+
+public class stepdefinitions4 {
+	
+	
+
+	@Given("I hit the url of post product api endpoint")
+	public void i_hit_the_url_of_post_product_api_endpoint() {
+	    
+	}
+	@Given("I pass the request body of product title {string}")
+	public void i_pass_the_request_body_of_product_title(String string) {
+	    
+	}
+	@Then("I receive the response code as {int}")
+	public void i_receive_the_response_code_as(Integer int1) {
+	    
+	}
+
+
+
+	
+}

@@ -1,0 +1,6 @@
+
+e	java:S106"+Replace this use of System.out by a logger.8†Ã‡ä1b bb1c3f2ea781263d3a2bb92b06a2061fh
+q
+java:S1854"6Remove this useless assignment to local variable "js".8ãàÄ‡ä1b 3302e39cb0fc7db5c4c1f53ce7f169c3h
+b
+java:S1481"'Remove this unused "js" local variable.8ãàÄ‡ä1b 32981a13284db7a021131df49e6cd203h

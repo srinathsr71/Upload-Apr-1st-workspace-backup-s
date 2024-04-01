@@ -1,0 +1,16 @@
+package TestRunner;
+
+
+import org.junit.runner.RunWith;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+import io.cucumber.java.Before;
+@RunWith(Cucumber.class)
+@CucumberOptions(features = "./src/test/resources/features/InsertProduct.feature",glue = "Stepdefinitions")
+public class testrunner {
+	@Before
+    public void setup(){
+        System.out.println("Test in progress");
+    }
+}

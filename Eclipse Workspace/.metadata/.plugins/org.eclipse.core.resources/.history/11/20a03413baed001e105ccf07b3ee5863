@@ -1,0 +1,36 @@
+package com.de;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+class demo2{
+	
+	public static void main(String[] args) {
+		//arraylist descending order
+		ArrayList<Integer> arraylist=new ArrayList();
+		arraylist.add(34);
+		arraylist.add(8);
+		arraylist.add(3);
+		arraylist.add(45);
+		arraylist.add(4);
+		arraylist.add(75);
+		Collections.sort(arraylist,Collections.reverseOrder());
+		System.out.println("After sorting");
+		for(int s: arraylist) {
+			System.out.println(s);
+		}
+		//arraylist ascending order
+		ArrayList<Integer> arraylist=new ArrayList();
+		arraylist.add(34);
+		arraylist.add(8);
+		arraylist.add(3);
+		arraylist.add(45);
+		arraylist.add(4);
+		arraylist.add(75);
+		Collections.sort(arraylist);
+		System.out.println("After sorting");
+		for(int s: arraylist) {
+			System.out.println(s);
+		}
+}
+}

@@ -1,0 +1,9 @@
+Feature: Validatimg petstore APIs
+Background:
+    Given I am on the OpenCart login pag
+Scenario: Add a new pet to the store
+Given User has API body for adding a pet
+And User sets API body content type as "application/json"
+When User calls POST /pet API
+Then API returns a response back
+And User validates response code as 200

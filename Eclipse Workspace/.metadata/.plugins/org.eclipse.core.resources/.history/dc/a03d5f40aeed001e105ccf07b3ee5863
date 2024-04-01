@@ -1,0 +1,18 @@
+package com.de;
+
+
+
+class demo2{
+	
+	public static void main(String[] args) {
+		
+		int m[]= {68,36,21,12,17,32};
+		int max=m[0];
+		for(int i=0;i<m.length;i++) {
+			if(m[i]>max) {
+				max=m[i];
+			}
+		}
+		System.out.println("the largest number in an arry is"+max);
+}
+}

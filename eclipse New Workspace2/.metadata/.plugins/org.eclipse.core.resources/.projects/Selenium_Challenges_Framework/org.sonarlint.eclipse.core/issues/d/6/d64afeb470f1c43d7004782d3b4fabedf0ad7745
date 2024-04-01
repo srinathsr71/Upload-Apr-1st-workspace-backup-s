@@ -1,0 +1,13 @@
+
+─	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.b d0e45878043844ffc41aac437e86b602h
+▀	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8звдуД1b ef15fd2f45e6bb5ce57587895ba64f93h
+i
+java:S1172".Remove this unused method parameter "Browser".8звдуД1b ef15fd2f45e6bb5ce57587895ba64f93h
+f
+java:S1481"+Remove this unused "driver" local variable.8звдуД1b e2d45d57c7e2941b65c6ccd64af4223eh
+k
+java:S1128"0Remove this unused import 'java.io.IOException'.8звдуД1b b4d0c6ab436c3bc3a3bfe8df6b26cb6eh
+{
+java:S1128"@Remove this unused import 'com.operationmethods.GenericMethods'.8звдуД1b f32253e7078463d40fb423e2b188c191h
+│
+java:S1128"FRemove this unused import 'com.operationmethods.GenericStaticMethods'.8звдуД1b 69613a03ffe77bc609d78bf4bf469193h

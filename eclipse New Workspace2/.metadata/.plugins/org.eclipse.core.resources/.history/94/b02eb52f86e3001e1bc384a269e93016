@@ -1,0 +1,20 @@
+package com.scf.base;
+
+import java.io.IOException;
+
+import com.operationmethods.GenericMethods;
+import com.operationmethods.GenericStaticMethods;
+
+
+
+public class parent {
+	public void intialization() throws IOException {
+		
+	}
+	public void openurl() {
+		GenericStaticMethods.geturl(GenericStaticMethods.getProperty("url"));
+	}
+	
+	
+
+}

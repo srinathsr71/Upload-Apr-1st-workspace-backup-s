@@ -1,0 +1,12 @@
+
+j
+java:S2696!"6Make the enclosing method "static" or remove this set.b c97983f6b86263f9a3d68f98b33965c9h
+†
+java:S1104"RMake extent a static final constant or non-public and provide accessors if needed.b 0793046cd12db418149c2b688af9b27fh
+j
+java:S2696""6Make the enclosing method "static" or remove this set.b 0793046cd12db418149c2b688af9b27fh
+`
+java:S1444",Make this "public static extent" field finalb 0793046cd12db418149c2b688af9b27fh
+a
+java:S1168E"&Return an empty array instead of null.8§¼׳יא1b 37a6259cc0c1dae299a7866489dff0bdh
+e	java:S106>"+Replace this use of System.out by a logger.8וֽ‡ןא1b bb1c3f2ea781263d3a2bb92b06a2061fh

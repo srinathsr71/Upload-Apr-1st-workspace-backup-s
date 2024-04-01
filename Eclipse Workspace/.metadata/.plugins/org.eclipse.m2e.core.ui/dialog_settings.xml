@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\Admin\Downloads\New folder (8)\APIBasic"/>
+			<item value="D:\veera project\Eclipse Workspace\APIBasic"/>
+			<item value="D:\veera project\eclipse New Workspace\ModelFramwork"/>
+			<item value="C:\Users\Admin\Downloads\New folder (5)\AutomationCICD-main"/>
+			<item value="D:\veera project\eclipse New Workspace2\Daily_design_Frameworks"/>
+			<item value="C:\Users\Admin\Downloads\New folder\MyProject-master"/>
+			<item value="D:\seperate\Final_Framework_Selenium_TestNG-master"/>
+			<item value="D:\veera project\Automation_Framework"/>
+			<item value="D:\veera project\eclipse New Workspace\AutomationFramework"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\veera project\Eclipse Workspace\PracticeInterview_Programs\src\com\pip\commonvalues.java"/>
+			<item value="D:\veera project\Eclipse Workspace\DataDrive_Framework"/>
+			<item value="D:\veera project\Eclipse Workspace\DatadrivenFramework\src\test\java\com\assign\testsuite\BaCourseList.java"/>
+			<item value="D:\veera project\Eclipse Workspace\EndToEnd_AutomationFramework\pom.xml"/>
+			<item value="D:\veera project\Automation_Framework"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.practice.cucumber"/>
+			<item value="com.organize.cucumber"/>
+			<item value="com.demo.orangehrm"/>
+			<item value="com.WebAutomation"/>
+			<item value="com.Practice_Framework"/>
+			<item value="com.appiumauto"/>
+			<item value="com.data_driven"/>
+			<item value="com.assign.Framework"/>
+			<item value="com.Assingment.Datadriven"/>
+			<item value="com.framework"/>
+			<item value="com.Framework"/>
+			<item value="com.Automation"/>
+			<item value="com.demo"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="CucumberRestApi"/>
+			<item value="CucumberFrameworkPractice"/>
+			<item value="framework"/>
+			<item value="WebAutomation_Framework"/>
+			<item value="Selenium_Challenges"/>
+			<item value="mobile_automation"/>
+			<item value="Data_drivenFramework"/>
+			<item value="DataDrive_Framework"/>
+			<item value="DatadrivenFramework"/>
+			<item value="EndToEnd_AutomationFramework"/>
+			<item value="AutomationFramework"/>
+			<item value="Automation_Framework"/>
+			<item value="Framework"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+			<item value="0.0.2"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

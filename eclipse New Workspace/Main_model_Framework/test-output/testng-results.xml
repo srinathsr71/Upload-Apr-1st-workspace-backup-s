@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-31T10:38:12 IST" name="Default suite" finished-at="2024-01-31T10:38:24 IST" duration-ms="12148">
+    <groups>
+    </groups>
+    <test started-at="2024-01-31T10:38:12 IST" name="Default test" finished-at="2024-01-31T10:38:24 IST" duration-ms="12148">
+      <class name="testsuites.perform">
+        <test-method is-config="true" signature="browserinit()[pri:0, instance:testsuites.perform@194bcebf]" started-at="2024-01-31T10:38:12 IST" name="browserinit" finished-at="2024-01-31T10:38:22 IST" duration-ms="9553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserinit -->
+        <test-method signature="ready()[pri:0, instance:testsuites.perform@194bcebf]" started-at="2024-01-31T10:38:22 IST" name="ready" finished-at="2024-01-31T10:38:24 IST" duration-ms="2529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ready -->
+      </class> <!-- testsuites.perform -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

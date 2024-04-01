@@ -1,0 +1,12 @@
+
+s
+java:S1854"8Remove this useless assignment to local variable "word".8÷×Œªå1b 29b3bf3a9f981566e74db982dbad7b84h
+c	java:S108
+")Either remove or fill this block of code.8÷×Œªå1b f95b70fdc3088560732a5ac135644506h
+f
+java:S1135"2Complete the task associated to this TODO comment.b 36364ec9aa2f0995d283c1c6a92d2e5ch
+€	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.b c47fb81657a6c3b38bd149f2e348c6afh
+e
+java:S1481	"*Remove this unused "count" local variable.8÷×Œªå1b e2942a04780e223b215eb8b663cf5353h
+d
+java:S1481")Remove this unused "word" local variable.8÷×Œªå1b c47d187067c6cf953245f128b5fde62ah

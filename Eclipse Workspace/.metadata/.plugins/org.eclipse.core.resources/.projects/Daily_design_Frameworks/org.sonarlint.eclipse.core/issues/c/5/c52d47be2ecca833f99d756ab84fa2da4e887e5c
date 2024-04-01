@@ -1,0 +1,9 @@
+
+g
+java:S1444",Make this "public static driver" field final8à¹ù´å1b e2d45d57c7e2941b65c6ccd64af4223eh
+s
+java:S1128"8Remove this unused import 'com.assign.utility.Fileinfo'.8³Â¦µå1b 9507ceb93bd5ffbaa30cd3b67d9d8207h
+e	java:S106$"+Replace this use of System.out by a logger.8à¹ù´å1b bb1c3f2ea781263d3a2bb92b06a2061fh
+
+java:S1104"RMake driver a static final constant or non-public and provide accessors if needed.8à¹ù´å1b e2d45d57c7e2941b65c6ccd64af4223eh
+€	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.b d0e45878043844ffc41aac437e86b602h

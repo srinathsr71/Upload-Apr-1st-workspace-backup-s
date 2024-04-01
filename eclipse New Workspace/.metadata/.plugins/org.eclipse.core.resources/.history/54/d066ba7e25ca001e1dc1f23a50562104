@@ -1,0 +1,10 @@
+package com.demo.j;
+
+public class demo {
+	
+	
+public void d() {
+	
+	clicksele(ele);
+}
+}

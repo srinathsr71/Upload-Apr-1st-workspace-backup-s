@@ -1,0 +1,9 @@
+
+î
+java:S14883"`Immediately return this expression instead of assigning it to the temporary variable "cartPage".b c45dcc294bd59e5e909ef43dcdd5ef50h
+ï
+java:S1488:"aImmediately return this expression instead of assigning it to the temporary variable "orderPage".b 08a5cebba7b5f6c750b6f3852a0dfad2h
+ç	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b ed89caea0b05b47445306cc4a4d3d342h
+^
+java:S1172="*Remove this unused method parameter "ele".b 7c4edbcefccec33c54e4bcf710c94929h
+o	java:S125@"<This block of commented-out lines of code should be removed.b 7f4dd9092a495f499546c3ff9da9c02bh

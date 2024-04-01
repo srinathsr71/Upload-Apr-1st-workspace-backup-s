@@ -1,0 +1,22 @@
+package com.pr;
+
+import java.util.Scanner;
+
+public class progra {
+    public static void main(String[] args) {
+    	Scanner sh=new Scanner(System.in);
+    	System.out.println("Enter number");
+    try {
+    	int k=sh.nextInt();
+    	System.out.println("the number i");
+    }
+    
+    
+    
+    
+    
+    }
+}
+
+
+

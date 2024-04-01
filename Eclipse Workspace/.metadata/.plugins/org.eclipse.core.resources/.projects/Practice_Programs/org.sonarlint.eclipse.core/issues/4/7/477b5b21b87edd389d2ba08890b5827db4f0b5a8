@@ -1,0 +1,7 @@
+
+e	java:S106"+Replace this use of System.out by a logger.8ýÝ‡´ã1b bb1c3f2ea781263d3a2bb92b06a2061fh
+”
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").8’ûþ³ã1b cd3da31bb3b5ae929295d5390e3961d7h
+€	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.b 22d05f35927262a20feaaacaa83122dbh
+f
+java:S1135"2Complete the task associated to this TODO comment.b 36364ec9aa2f0995d283c1c6a92d2e5ch

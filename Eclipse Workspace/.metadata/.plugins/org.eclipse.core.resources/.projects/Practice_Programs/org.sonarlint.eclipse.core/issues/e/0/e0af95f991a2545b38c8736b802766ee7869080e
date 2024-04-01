@@ -1,0 +1,15 @@
+
+o	java:S125	"<This block of commented-out lines of code should be removed.b 81d2d559873bddcddcbca59886e889ach
+`
+java:S1481&",Remove this unused "reverse" local variable.b 4d9c2073afa3c2abb817dceb22c34de6h
+€	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.b 3e1b69524c8b9c1e3960079d153de309h
+o	java:S125"<This block of commented-out lines of code should be removed.b 7d11ed91e6d760e9b978a413eb635a0ah
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106'"+Replace this use of System.out by a logger.8›˜€›á1b bb1c3f2ea781263d3a2bb92b06a2061fh
+o
+java:S1854&";Remove this useless assignment to local variable "reverse".b f61ef2fc8a5f94ad4926bb9738975031h
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+f
+java:S1135"2Complete the task associated to this TODO comment.b 36364ec9aa2f0995d283c1c6a92d2e5ch
+W
+java:S1643"Use a StringBuilder instead.8›˜€›á1b 943c52935ea927b80f63243a41a3980bh

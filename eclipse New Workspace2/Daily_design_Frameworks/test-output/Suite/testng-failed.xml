@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.ddf.utilities.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Sumit order Test">
+    <classes>
+      <class name="com.ddf.testsuite.Failscreenshot"/>
+    </classes>
+  </test> <!-- Sumit order Test -->
+</suite> <!-- Failed suite [Suite] -->

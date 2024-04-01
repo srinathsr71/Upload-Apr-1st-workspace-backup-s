@@ -1,0 +1,8 @@
+package com.interviewprograms;
+//write a java program to fetch values from map using keys.
+public class GettingKey {
+
+	public static void main(String[] args) {
+		
+	}
+}

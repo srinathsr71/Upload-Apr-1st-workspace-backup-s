@@ -1,0 +1,9 @@
+package com.practice.programs;
+
+
+//write a java program to find common elements between two arraylist.
+
+public class commonarraylist {
+
+	
+}

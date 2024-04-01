@@ -1,0 +1,34 @@
+
+e	java:S106'"+Replace this use of System.out by a logger.8ë™àšÙ1b bb1c3f2ea781263d3a2bb92b06a2061fh
+d
+java:S1444")Make this "public static pda" field final8ÄÉÏ—Ù1b e40a1c78080249df994eaedb833d0434h
+z
+java:S1128	"?Remove this unused import 'org.testng.annotations.AfterMethod'.8‰ÆÍšÙ1b bc75b601a260dd5cf959bfd3f84512d5h
+{
+java:S1128
+"@Remove this unused import 'org.testng.annotations.BeforeMethod'.8…¿‡½Ù1b 238d4d8a643fd379c731ad334e7c38f6h
+q
+java:S2696!"6Make the enclosing method "static" or remove this set.8Ëˆõ—Ù1b e2d45d57c7e2941b65c6ccd64af4223eh
+g
+java:S1444",Make this "public static driver" field final8¢‰É—Ù1b e2d45d57c7e2941b65c6ccd64af4223eh
+Š
+java:S1104"OMake pda a static final constant or non-public and provide accessors if needed.8ÄÉÏ—Ù1b e40a1c78080249df994eaedb833d0434h
+c
+java:S1444"(Make this "public static dw" field final8Ëˆõ—Ù1b 1f2121f36f817bd18540e5fa7de06f59h
+c
+java:S1444"(Make this "public static ck" field final8”×˜Ù1b d5a5b3dd1ccb90d30360f0c068fd43fch
+‰
+java:S1104"NMake ck a static final constant or non-public and provide accessors if needed.8”×˜Ù1b d5a5b3dd1ccb90d30360f0c068fd43fch
+q
+java:S2696$"6Make the enclosing method "static" or remove this set.8Ëˆõ—Ù1b e2d45d57c7e2941b65c6ccd64af4223eh
+§
+java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.8ôµË¼Ù1b be3bf3cb01e0cae10d7459a53f1b9edch
+
+java:S1104"RMake driver a static final constant or non-public and provide accessors if needed.8¢‰É—Ù1b e2d45d57c7e2941b65c6ccd64af4223eh
+v	java:S125"<This block of commented-out lines of code should be removed.8»æİšÙ1b c75b80bdb0f1d2a4051dd1f23d086b7dh
+ƒ
+java:S1192"HDefine a constant instead of duplicating this literal "browser" 3 times.8»æİšÙ1b 57dcf22e4827427c999b4216c7fee435h
+‰
+java:S1104"NMake dw a static final constant or non-public and provide accessors if needed.8Ëˆõ—Ù1b 1f2121f36f817bd18540e5fa7de06f59h
+q
+java:S2696"6Make the enclosing method "static" or remove this set.8Ëˆõ—Ù1b e2d45d57c7e2941b65c6ccd64af4223eh

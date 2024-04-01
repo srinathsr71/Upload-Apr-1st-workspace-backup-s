@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\veera project\eclipse New Workspace2\Selenium_Challenges_Framework\pom.xml"/>
+			<item value="D:\veera project\eclipse New Workspace2\WebAutomationFramework"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.practice"/>
+			<item value="Selenium_Frame"/>
+			<item value="com.Selenium_Challenges"/>
+			<item value="com.demo"/>
+			<item value="com.WebAutomation"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="Daily_design_Frameworks"/>
+			<item value="Framework1"/>
+			<item value="Selenium_Challenges_Framework"/>
+			<item value="AutomationFrame"/>
+			<item value="WebAutomationFramework"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="D:\veera project\seperat\spring tool workspace\Rest-assured"/>
+			<item value="D:\veera project\Eclipse Workspace\DataDriven_Framework"/>
+			<item value="D:\veera project\Eclipse Workspace\Practice_Programs"/>
+			<item value="D:\veera project\Eclipse Workspace\DataDrive_Framework"/>
+			<item value="D:\veera project\eclipse New Workspace\Practice_module_framework"/>
+			<item value="D:\veera project\eclipse New Workspace\Model_Framework"/>
+			<item value="D:\veera project\Eclipse Workspace\mobile_automation"/>
+			<item value="C:\Users\Admin\Downloads\New folder (2)\Appium"/>
+			<item value="D:\veera project\eclipse New Workspace\ModelFramwork"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

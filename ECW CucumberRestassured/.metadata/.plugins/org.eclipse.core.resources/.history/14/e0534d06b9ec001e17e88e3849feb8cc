@@ -1,0 +1,8 @@
+package testrun;
+
+import io.cucumber.junit.CucumberOptions;
+
+@CucumberOptions(features = "/CucumberAPI/src/test/resources/feature/demo.feature",glue="stepdefinit")
+public class testrunnerss {
+
+}

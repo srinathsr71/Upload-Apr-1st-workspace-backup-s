@@ -1,0 +1,5 @@
+
+e	java:S106"+Replace this use of System.out by a logger.8©√ù≥„1b bb1c3f2ea781263d3a2bb92b06a2061fh
+Ä	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.b 02a077c9aaa55b87660952d96945a8f8h
+v	java:S125"<This block of commented-out lines of code should be removed.8Ø˙ú≥„1b 3b9aa7155e6ebc482acca36aef5565aah
+e	java:S106"+Replace this use of System.out by a logger.8•µ´≥„1b bb1c3f2ea781263d3a2bb92b06a2061fh

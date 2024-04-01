@@ -1,0 +1,5 @@
+
+}
+java:S2094"BRemove this empty class, write its code or make it an "interface".8÷ÌÃ¡„1b e8b5461c554aa6fc1962fed51ca01308h
+Ä	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.b e8b5461c554aa6fc1962fed51ca01308h
+v	java:S125"<This block of commented-out lines of code should be removed.8÷ÌÃ¡„1b fced6b300d6511c0432efd3cee0feff0h

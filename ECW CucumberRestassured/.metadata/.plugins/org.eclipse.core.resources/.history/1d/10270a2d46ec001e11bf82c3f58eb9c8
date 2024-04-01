@@ -1,0 +1,105 @@
+package com.cr.stepdefinitions;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import io.restassured.RestAssured;
+import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
+import io.restassured.response.ResponseBody;
+import io.restassured.specification.RequestSpecification;
+import org.json.simple.JSONObject;
+
+import static io.restassured.RestAssured.given;
+import static org.junit.Assert.assertEquals;
+
+public class Products {
+    public int StatusCode;
+    public RequestSpecification httpRequest;
+    public Response response;
+    public int ResponseCode;
+    public ResponseBody body;
+    public JSONObject requestParams;
+    public JsonPath jsnpath;
+    public String s;
+    
+
+    
+
+    @Given("I hit the url of post product api endpoint")
+    public void iHitTheUrlOfPostProductApiEndpoint() {
+        RestAssured.baseURI = "https://fakestoreapi.com/";
+        httpRequest = given();
+         requestParams = new JSONObject();
+    }
+
+    @And("I pass the request body of product title {}")
+    public void iPassTheRequestBodyOfProductTitle(String title) {
+        requestParams.put("title", title);
+        requestParams.put("price",13.5);
+        requestParams.put("description","lorem ipsum set");
+        requestParams.put("image","https://i.pravatar.cc");
+        requestParams.put("cateogry","electronic");
+        httpRequest.body(requestParams.toJSONString());
+        Response response =httpRequest.post("products");
+        ResponseBody body = response.getBody();
+        JsonPath jsnpath = response.jsonPath();
+        s = jsnpath.getJsonObject("id").toString();
+        System.out.println(response.getStatusLine());
+        System.out.println(body.asString());
+    }
+
+    @Then("I receive the response body with id as {}")
+    public void iReceiveTheResponseBodyWithIdAs(String id) {
+        assertEquals(id, s);
+    }
+
+    @Given("I hit the url of put product api endpoint")
+    public void iHitTheUrlOfPutProductApiEndpoint() {
+        RestAssured.baseURI = "https://fakestoreapi.com/";
+        requestParams = new JSONObject();
+    }
+
+    @When("I pass the url of products in the request with {}")
+    public void iPassTheUrlOfProductsInTheRequestWith(String productnumber) {
+        httpRequest = RestAssured.given();
+        requestParams.put("title", "test product");
+        requestParams.put("price","13.5");
+        requestParams.put("description","lorem ipsum set");
+        requestParams.put("image","https://i.pravatar.cc");
+        requestParams.put("cateogry","electronic");
+        httpRequest.body(requestParams.toJSONString());
+        response = httpRequest.put("products/"+ productnumber);
+        ResponseBody body = response.getBody();
+        JsonPath jsnpath = response.jsonPath();
+        s = jsnpath.getJsonObject("id").toString();
+        System.out.println(response.getStatusLine());
+        System.out.println(body.asString());
+    }
+
+    @Given("I hit the url of delete product api endpoint")
+    public void iHitTheUrlOfDeleteProductApiEndpoint() {
+        RestAssured.baseURI = "https://fakestoreapi.com/";
+        requestParams = new JSONObject();
+    }
+
+    @When("I pass the url of delete products in the request with {}")
+    public void iPassTheUrlOfDeleteProductsInTheRequestWith(String productnumber) {
+        httpRequest = RestAssured.given();
+        requestParams.put("title", "test product");
+        requestParams.put("price","13.5");
+        requestParams.put("description","lorem ipsum set");
+        requestParams.put("image","https://i.pravatar.cc");
+        requestParams.put("cateogry","electronic");
+        httpRequest.body(requestParams.toJSONString());
+        response = httpRequest.delete("products/"+ productnumber);
+        ResponseBody body = response.getBody();
+        JsonPath jsnpath = response.jsonPath();
+        s = jsnpath.getJsonObject("id").toString();
+        System.out.println(response.getStatusLine());
+        System.out.println(body.asString());
+    }
+}

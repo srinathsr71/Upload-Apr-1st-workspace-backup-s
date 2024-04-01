@@ -1,0 +1,5 @@
+# Created at 2024-03-18T17:18:03.886
+Boot Manifest-JAR contains absolute paths in classpath 'D:\veera project\eclipse New Workspace2\Framework1\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

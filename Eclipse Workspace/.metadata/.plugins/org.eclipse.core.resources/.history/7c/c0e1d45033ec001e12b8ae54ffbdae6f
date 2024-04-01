@@ -1,0 +1,86 @@
+package com.cra.stepdefinitions2;
+import static io.restassured.RestAssured.given;
+
+import org.example.PostSample;
+import org.json.JSONObject;
+import org.junit.Assert;
+
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+import io.restassured.RestAssured;
+import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.http.ContentType;
+import io.restassured.response.Response;
+import io.restassured.response.ResponseOptions;
+import io.restassured.specification.RequestSpecification;
+import utils.TestData;
+
+public class stepdef {
+	 public RequestSpecification httpRequest;
+	    public Response response;
+	    public JSONObject requestParams;
+	    
+		@Given("User has API body for adding a pet")
+		public void user_has_api_body_for_adding_a_pet() {
+			RestAssured.baseURI = "https://fakestoreapi.com/";
+	        httpRequest = given();
+	         requestParams = new JSONObject();
+			//System.out.println(apiBody);
+			//System.out.println("hello");
+		}
+		@And("User sets API body content type as")
+		public void user_sets_api_body_content_type_as() {
+			requestParams.put("id","100");
+			requestParams.put("username","Rachana");
+			requestParams.put("firstName","Lokesh");
+			requestParams.put("lastName","naveen");
+			requestParams.put("email","r.n@gmail.com");
+			requestParams.put("password","123pass");
+			requestParams.put("phone","9611342837");
+			requestParams.put("userStatus",1);
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		
+		
+		}
+		@When("User calls POST \\/pet API")
+		public void user_calls_post_pet_api() {
+			httpRequest.body(((Object) requestParams).toJSONString());
+	        Response response =httpRequest.post("products");
+	        ResponseBody body = response.getBody();
+	        JsonPath jsnpath = response.jsonPath();
+	        s = jsnpath.getJsonObject("id").toString();
+	        System.out.println(response.getStatusLine());
+	        System.out.println(body.asString());
+		
+		
+		}
+		@Then("API returns a response back")
+		public void api_returns_a_response_back() {
+
+			
+			
+		}
+		@Then("User validates response code as {int}")
+		public void user_validates_response_code_as(Integer int1) {
+			
+			
+		}
+
+
+
+		
+		
+
+	}
+	

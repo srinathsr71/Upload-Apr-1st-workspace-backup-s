@@ -1,0 +1,24 @@
+
+r
+java:S1128"7Remove this unused import 'org.json.simple.JSONObject'.8’ıÙµå1b 240fa17743afed0210b0618baee1d309h
+v	java:S125#"<This block of commented-out lines of code should be removed.8¢úÚ´å1b baf881473e7ea3f0484b1e378cab5e60h
+—
+java:S1488!"\Immediately return this expression instead of assigning it to the temporary variable "data".8¢úÚ´å1b c77a3d0a2a3f3cf2b891042fbd92feaah
+{
+java:S1128"@Remove this unused import 'org.testng.annotations.DataProvider'.8’ıÙµå1b 1af124d616042913f0864d9f5167a4c7h
+k
+java:S1128"0Remove this unused import 'java.util.ArrayList'.8’ıÙµå1b 510ef3bd202c030c041eba1094753b66h
+y
+java:S1128">Remove this unused import 'org.json.simple.parser.JSONParser'.8’ıÙµå1b 1785774f0972df4a765a1a38d2678013h
+j
+java:S1128"/Remove this unused import 'java.io.FileReader'.8’ıÙµå1b a9fb233e005b3e6875ad0c057a9b5623h
+q
+java:S1128"6Remove this unused import 'org.json.simple.JSONArray'.8’ıÙµå1b 7a62b938e1bce4586ad0da29980d60fbh
+n
+java:S1128"3Remove this unused import 'org.testng.ITestResult'.8÷—ÚÚå1b 0782f87de7c740e819c485179a978f1dh
+v
+java:S1128";Remove this unused import 'org.openqa.selenium.OutputType'.8Ş¹êÚå1b 81cd228314c54a72c568d0324c8b8a59h
+{
+java:S1128"@Remove this unused import 'org.openqa.selenium.TakesScreenshot'.8Ş¹êÚå1b 43740bfa43bc1e6fbd8c82754e24069eh
+u
+java:S1128":Remove this unused import 'org.openqa.selenium.WebDriver'.8Ş¹êÚå1b 47749bda47997e552fbd58e14f97c351h

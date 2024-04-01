@@ -1,0 +1,28 @@
+package stepdefinit;
+
+
+
+public class stepdefinitions4 {
+	io.cucumber.junit.UndefinedStepException: The step 'I hit the url of post product api endpoint' and 2 other step(s) are undefined.
+	You can implement these steps using the snippet(s) below:
+
+	@Given("I hit the url of post product api endpoint")
+	public void i_hit_the_url_of_post_product_api_endpoint() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@Given("I pass the request body of product title {string}")
+	public void i_pass_the_request_body_of_product_title(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@Then("I receive the response code as {int}")
+	public void i_receive_the_response_code_as(Integer int1) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+
+
+	
+}

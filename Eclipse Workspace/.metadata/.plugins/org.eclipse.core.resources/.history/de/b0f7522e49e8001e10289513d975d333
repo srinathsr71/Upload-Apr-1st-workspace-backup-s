@@ -1,0 +1,8 @@
+package com.cfp.pageelements;
+
+import org.openqa.selenium.WebDriver;
+
+public class Accountspage {
+	private WebDriver driver;
+
+}

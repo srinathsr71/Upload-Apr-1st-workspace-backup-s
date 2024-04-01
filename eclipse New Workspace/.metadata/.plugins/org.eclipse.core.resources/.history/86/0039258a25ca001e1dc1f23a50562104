@@ -1,0 +1,12 @@
+package com.demo.j;
+
+import org.openqa.selenium.WebElement;
+
+public class demo {
+	
+	
+public void d() {
+	WebElement ele=driver.findElement(By.xpath("//*[contains(text(),'OrangeHRM, Inc')]"));
+	clicksele(ele);
+}
+}

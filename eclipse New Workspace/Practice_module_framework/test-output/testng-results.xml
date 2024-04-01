@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-10T19:56:44 IST" name="Default suite" finished-at="2024-02-10T19:57:06 IST" duration-ms="21920">
+    <groups>
+    </groups>
+    <test started-at="2024-02-10T19:56:44 IST" name="Default test" finished-at="2024-02-10T19:57:06 IST" duration-ms="21920">
+      <class name="com.testsuite.regtest">
+        <test-method is-config="true" signature="browsersele()[pri:0, instance:com.testsuite.regtest@ffaa6af]" started-at="2024-02-10T19:56:44 IST" name="browsersele" finished-at="2024-02-10T19:56:57 IST" duration-ms="12484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsersele -->
+        <test-method signature="registertest()[pri:0, instance:com.testsuite.regtest@ffaa6af]" started-at="2024-02-10T19:56:57 IST" name="registertest" finished-at="2024-02-10T19:57:04 IST" duration-ms="7110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registertest -->
+        <test-method is-config="true" signature="at()[pri:0, instance:com.testsuite.regtest@ffaa6af]" started-at="2024-02-10T19:57:04 IST" name="at" finished-at="2024-02-10T19:57:06 IST" duration-ms="2269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- at -->
+      </class> <!-- com.testsuite.regtest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

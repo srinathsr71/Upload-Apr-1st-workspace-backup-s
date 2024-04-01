@@ -1,0 +1,47 @@
+package org.example;
+
+import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
+import org.json.JSONObject;
+import org.junit.Assert;
+import org.junit.Test;
+
+import static io.restassured.RestAssured.given;
+
+public class PostSample {
+    @Test
+    public void postSampleOne(){
+        RequestSpecBuilder builder=new RequestSpecBuilder();
+        //String requestUrl="https://petstore.swagger.io/v2/user";
+        String requestUrl=""
+//        String apiBody="{\n" +
+//                "  \"id\": 100,\n" +
+//                "  \"username\": \"Rachana\",\n" +
+//                "  \"firstName\": \"Lokesh\",\n" +
+//                "  \"lastName\": \"naveen\",\n" +
+//                "  \"email\": \"r.n@gmail.com\",\n" +
+//                "  \"password\": \"123pass\",\n" +
+//                "  \"phone\": \"9611342837\",\n" +
+//                "  \"userStatus\": 1\n" +
+//                "}";
+        String apiBody="{\n"+
+        	     "  \"name\": \"Rachana\",\n" +
+        		"  \"job\": \"leader\",\n" +
+        	"}";
+
+        builder.setBody(apiBody);
+        builder.setContentType("application/json");
+        RequestSpecification requestSpecification= builder.build();
+        Response response= given().
+                spec(requestSpecification).
+                when().post(requestUrl);
+        System.out.println(response.getStatusCode());
+        String StatusLine = response.statusLine();
+       System.out.println( response.getStatusLine());
+        System.out.println( response.getBody().asString());
+        Assert.assertEquals(200, response.getStatusCode());
+        Assert.assertTrue(StatusLine.contains("OK"));
+
+    }
+}

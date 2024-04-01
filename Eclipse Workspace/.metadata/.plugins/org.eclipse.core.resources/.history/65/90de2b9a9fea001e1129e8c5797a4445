@@ -1,0 +1,15 @@
+package com.practice.programs;
+
+
+import java.util.ArrayList;
+import java.util.List;
+
+//write a java program to find common elements between two arraylist.
+
+public class commonarraylist {
+
+public static void main(String[] args) {
+	List<Integer> li1=new ArrayList<Integer>();
+	
+}	
+}

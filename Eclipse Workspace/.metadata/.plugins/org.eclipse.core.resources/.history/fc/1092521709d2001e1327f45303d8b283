@@ -1,0 +1,25 @@
+package com.pr;
+
+import java.util.Scanner;
+
+public class progra {
+    public static void main(String[] args) {
+    	Scanner sh=new Scanner(System.in);
+    	System.out.println("Enter number");
+    try {
+    	String a=sh.next();
+    	String b=sh.next();
+    	System.out.println("the number is integer");
+    }catch(Exception e) {
+    	System.out.println("the number is not an integer");
+    }
+    
+    
+    
+    
+    
+    }
+}
+
+
+

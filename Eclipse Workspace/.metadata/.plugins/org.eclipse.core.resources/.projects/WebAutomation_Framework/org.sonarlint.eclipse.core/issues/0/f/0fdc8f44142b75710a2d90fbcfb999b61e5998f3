@@ -1,0 +1,39 @@
+
+f	java:S106Ï"+Replace this use of System.out by a logger.8î‰ŠÁã1b bb1c3f2ea781263d3a2bb92b06a2061fh
+
+java:S1104)"SMake element a static final constant or non-public and provide accessors if needed.8î‰ŠÁã1b 8e2dcfd7e7e24b1ca76c1193f645902bh
+‰
+java:S1192®"MDefine a constant instead of duplicating this literal "' not found." 4 times.8î‰ŠÁã1b 854fa2835112b54fdcf0b100aafa45ddh
+‰
+java:S2095µ"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.8î‰ŠÁã1b d00986c5caf8d7e1368363286c31b433h
+t
+java:S3516\"9Refactor this method to not always return the same value.8î‰ŠÁã1b cca94475baa2611c66dd18b1959d45ach
+w
+java:S1117–";Rename "element" which hides the field declared at line 41.8î‰ŠÁã1b 8e2dcfd7e7e24b1ca76c1193f645902bh
+r
+java:S2696è"6Make the enclosing method "static" or remove this set.8î‰ŠÁã1b e2d45d57c7e2941b65c6ccd64af4223eh
+r
+java:S2696ë"6Make the enclosing method "static" or remove this set.8î‰ŠÁã1b e2d45d57c7e2941b65c6ccd64af4223eh
+f	java:S106ˆ"+Replace this use of System.out by a logger.8î‰ŠÁã1b bb1c3f2ea781263d3a2bb92b06a2061fh
+
+java:S1104("RMake driver a static final constant or non-public and provide accessors if needed.8î‰ŠÁã1b e2d45d57c7e2941b65c6ccd64af4223eh
+v	java:S125-"<This block of commented-out lines of code should be removed.8î‰ŠÁã1b 4fe19ac296209b8db022c94da45bdd9ah
+h
+java:S1444)"-Make this "public static element" field final8î‰ŠÁã1b 8e2dcfd7e7e24b1ca76c1193f645902bh
+f	java:S106Å"+Replace this use of System.out by a logger.8î‰ŠÁã1b bb1c3f2ea781263d3a2bb92b06a2061fh
+„
+java:S1192ã"HDefine a constant instead of duplicating this literal "browser" 3 times.8î‰ŠÁã1b 57dcf22e4827427c999b4216c7fee435h
+¨
+java:S1130â"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.8î‰ŠÁã1b be3bf3cb01e0cae10d7459a53f1b9edch
+r
+java:S2696å"6Make the enclosing method "static" or remove this set.8î‰ŠÁã1b e2d45d57c7e2941b65c6ccd64af4223eh
+v
+java:S1117K";Rename "element" which hides the field declared at line 41.8î‰ŠÁã1b 8e2dcfd7e7e24b1ca76c1193f645902bh
+f	java:S106»"+Replace this use of System.out by a logger.8î‰ŠÁã1b bb1c3f2ea781263d3a2bb92b06a2061fh
+g
+java:S1444(",Make this "public static driver" field final8î‰ŠÁã1b e2d45d57c7e2941b65c6ccd64af4223eh
+	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b 81130d03e2e0698be0a51920c7430a7ah
+f	java:S106®"+Replace this use of System.out by a logger.8î‰ŠÁã1b bb1c3f2ea781263d3a2bb92b06a2061fh
+f	java:S106í"+Replace this use of System.out by a logger.8î‰ŠÁã1b bb1c3f2ea781263d3a2bb92b06a2061fh
+{
+java:S1128"@Remove this unused import 'org.apache.commons.lang3.tuple.Pair'.8ÒñÁã1b 2bef7e8d5ee32468d3aa333138b55c69h

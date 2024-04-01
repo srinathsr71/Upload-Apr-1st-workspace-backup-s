@@ -1,0 +1,8 @@
+
+œ
+java:S1488,"hImmediately return this expression instead of assigning it to the temporary variable "productCatalogue".b 0be78b8c16987a5f276cd476992f6223h
+k
+java:S2387"7"driver" is the name of a field in "AbstractComponent".b e2d45d57c7e2941b65c6ccd64af4223eh
+o	java:S125"<This block of commented-out lines of code should be removed.b 1586b7a759154072a37de4eb5ca53652h
+g
+java:S1128"3Remove this unused import 'org.openqa.selenium.By'.b 35d982ea9c44f5553eea0d75500621b0h

@@ -1,0 +1,30 @@
+package com.pr;
+
+import java.util.Scanner;
+
+public class progra {
+    public static void main(String[] args) {
+    	Scanner sh=new Scanner(System.in);
+    	System.out.println("Enter number");
+    try {
+    	int c,d;
+    	String a=sh.next();
+    	 c=Integer.parseInt(a);
+    	 String b=sh.next();
+    	 d=Integer.parseInt(b);
+    	System.out.println("the numbers entered are integers and perform multiplication");
+    	int result=c*d;
+    	System.out.println("the multiplication of two numbers are:"+result);
+    }catch(Exception e) {
+    	System.out.println("the numbers entered are not an integers");
+    }
+    
+    
+    
+    
+    
+    }
+}
+
+
+

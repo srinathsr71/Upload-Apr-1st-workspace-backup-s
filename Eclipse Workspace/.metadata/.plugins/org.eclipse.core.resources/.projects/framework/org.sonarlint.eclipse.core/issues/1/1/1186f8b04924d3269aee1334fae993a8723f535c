@@ -1,0 +1,7 @@
+
+€	java:S101
+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.b b7c2506678e5cfcd7c8f6c76ad787896h
+v
+java:S3252";Use static access with "com.demo.base.parent" for "driver".8¬œ”¨æ1b e2d45d57c7e2941b65c6ccd64af4223eh
+p
+java:S2209"5Change this instance-reference to a static reference.8¬œ”¨æ1b 9e925e9341b490bfd3b4c4ca3b0c1ef2h

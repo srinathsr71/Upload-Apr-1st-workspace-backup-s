@@ -1,0 +1,29 @@
+package com.pr;
+
+import java.util.Scanner;
+
+public class progra {
+    public static void main(String[] args) {
+    	Scanner sh=new Scanner(System.in);
+    	System.out.println("Enter number");
+    try {
+    	int c,d;
+    	String a=sh.next();
+    	String b=sh.next();
+    	 c=Integer.parseInt(a);
+    	 d=Integer.parseInt(b);
+    	System.out.println("the numbers entered are integers and perform addition");
+    	int result=c+d;
+    }catch(Exception e) {
+    	System.out.println("the number is not an integer");
+    }
+    
+    
+    
+    
+    
+    }
+}
+
+
+

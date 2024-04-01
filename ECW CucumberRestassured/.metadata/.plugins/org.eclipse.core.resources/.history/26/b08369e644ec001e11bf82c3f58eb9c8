@@ -1,0 +1,8 @@
+package com.cr.runner;
+
+import cucumber.api.CucumberOptions;
+
+@CucumberOptions(features = "./src/test/resources/features/InsertProduct.feature",glue = "com.cr.stepdefinitions")
+public class testrunner {
+
+}

@@ -1,0 +1,3 @@
+
+Â
+java:S3577"Rename class "Failscreenshot" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'b 4b38eac3af674bbf813d57a693b04915h

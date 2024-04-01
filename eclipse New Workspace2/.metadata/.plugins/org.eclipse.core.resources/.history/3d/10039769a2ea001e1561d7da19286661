@@ -1,0 +1,12 @@
+package com.interviewprograms;
+
+import java.util.ArrayList;
+
+public class common {
+	
+	
+	public static void main(String[] args) {
+		List<Integer> l1=new ArrayList<E>();
+	}
+
+}
